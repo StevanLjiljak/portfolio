@@ -1,8 +1,8 @@
 # [Stevan Ljiljak] - Portfolio 🌟
 
-[![GitHub](https://github.com/StevanLjiljak)](https://github.com/StevanLjiljak)
-[![LinkedIn](https://www.linkedin.com/in/stevan-ljiljak-a4888544/)](https://www.linkedin.com/in/stevan-ljiljak-a4888544/)
-[![Website](https://stevanljiljak.dev)](https://stevanljiljak.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=flat&logo=github)](https://github.com/StevanLjiljak)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin)](https://www.linkedin.com/in/stevan-ljiljak-a4888544/)
+[![Website](https://img.shields.io/badge/🌐-Portfolio_Website-success?style=flat)](https://stevanljiljak.dev)
 
 👋 Hello! I am **[Stevan Ljiljak]**, Senior Software Engineer.
 
@@ -26,4 +26,4 @@ If you want to test my portfolio code:
 git clone https://github.com/StevanLjiljak/portfolio.git
 cd portfolio
 npm install
-npm start
+npm run dev
