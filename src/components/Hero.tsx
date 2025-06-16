@@ -49,7 +49,7 @@ export const Hero = () => {
           <div className="md:w-3/4">
             <p className="text-sm font-sans font-normal text-black whitespace-pre-line">
               {`Serbian (native)
-                English (upper intermediate level)
+                English (fluent)
                 Russian (basic)`}
             </p>
           </div>
