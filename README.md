@@ -13,7 +13,7 @@ This is my personal portfolio repository where I showcase my projects, skills an
 ## 📫 **Contacts**
 
 - ✉️ Email: **dsmljiljak@yahoo.com**
-- 🌐 Website: **[stevanljiljak.dev](https://stevanljiljak.dev)**
+- 🌐 Website: **[stevanljiljak.dev](https://ljiljak.dev)**
 - 🔗 LinkedIn: **[linkedin.com/in/stevan-ljiljak](https://www.linkedin.com/in/stevan-ljiljak-a4888544/)**
 
 ---
