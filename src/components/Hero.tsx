@@ -14,9 +14,13 @@ export const Hero = () => {
           </div>
           <div className="md:w-3/4">
             <p className="text-sm font-sans font-normal text-black">
-              {`As an experienced Senior Software Engineer with 13 years of experience developing enterprise solutions, I aim to design scalable, secure and high-performance systems using the Java ecosystem.
-                Specializing in transforming legacy systems into modern architectures and leading technical teams to achieve business goals. I strive to create innovative technical strategies that connect
-                business requirements with optimal technological solutions, focused on improving code quality through mentoring teams and implementing best standards.`}
+              {`I’m a senior software engineer with over 13 years of experience building scalable, secure, and high-performance enterprise systems within the Java ecosystem.
+                Throughout my career, I’ve focused not only on delivering robust technical solutions but on transforming how teams approach software: with clarity, discipline, and pride in craftsmanship.
+                My strength lies in modernizing complex legacy systems, architecting future-proof platforms, and elevating code quality through principled engineering.
+                I’m deeply invested in team growth, whether through mentoring, setting technical direction, or creating engineering cultures that value quality as much as speed.
+                I thrive where others hesitate in environments where systems are complex, goals are ambitious, and transformation is overdue.
+                I believe technical leadership is about more than just writing great code. It’s about creating an ecosystem where excellence becomes the default.
+                If you're looking for someone who combines deep technical expertise with strategic thinking, ownership, and a strong sense of engineering culture - let's talk.`}
             </p>
           </div>
         </div>
