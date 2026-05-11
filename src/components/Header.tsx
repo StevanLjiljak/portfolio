@@ -36,7 +36,7 @@ export const Header = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="flex flex-row gap-2 flex-shrink-0 mt-1 items-center">
+                    <div className="flex flex-col sm:flex-row gap-2 flex-shrink-0 mt-1 items-center">
                         <button
                             onClick={toggleTheme}
                             className="w-12 py-2 rounded text-sm border transition-colors border-stone-300 dark:border-stone-600 text-stone-600 dark:text-stone-300 hover:border-stone-500 dark:hover:border-stone-400"
