@@ -39,7 +39,7 @@ Build Automation: Gradle, Maven, Ant
 Methodologies: SAFe, Scrum, Kanban
 Protocols: SMPP, HTTP, REST
 Project management: JIRA, Confluence
-Cloud & Hosting: AWS, Swiss Cloud, Railway
+Cloud & Hosting: AWS, Swiss Cloud, Railway, Netlify
 Domain: Namecheap
 Analytics: Google Analytics (GA4)
 Integrations: OpenWeatherMap API, Resend (email)`,
