@@ -4,7 +4,7 @@ import App from './App'
 import { initAnalytics, trackPageView } from './utils/analytics';
 
 initAnalytics();
-trackPageView(window.location.pathname);
+trackPageView('Stevan Ljiljak – Principal Software Engineer');
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
