@@ -9,6 +9,7 @@ export interface LanguageContextType {
     t: Translations;
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const LanguageContext = createContext<LanguageContextType | null>(null);
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
