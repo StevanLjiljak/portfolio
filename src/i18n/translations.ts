@@ -1,6 +1,38 @@
 export type Language = 'en' | 'sr' | 'ru';
 
-export const translations = {
+interface ExperienceEntry {
+    company: string;
+    role: string;
+    period: string;
+    domain: string;
+    highlights: string[];
+    clients?: { name: string; highlights: string[] }[];
+}
+
+export interface Translations {
+    header: { name: string; role: string; downloadCV: string };
+    nav: { language: string };
+    sections: {
+        objective: string;
+        education: string;
+        language: string;
+        experience: string;
+        skills: string;
+        featuredProject: string;
+        projectDomains: string;
+        hobby: string;
+        contacts: string;
+    };
+    objective: string;
+    education: string;
+    languages: string;
+    hobby: string;
+    footer: { quote: string; copyright: string };
+    droneEye: { description: string; link: string };
+    experience: ExperienceEntry[];
+}
+
+export const translations: Record<Language, Translations> = {
     en: {
         header: {
             name: 'Stevan Ljiljak',
