@@ -50,7 +50,7 @@ export const Header = () => {
                                 onClick={() => setLanguage(lang.code)}
                                 className={`w-12 py-2 rounded text-xs border transition-colors text-center ${
                                     language === lang.code
-                                        ? 'border-burg-500 bg-burg-500 dark:bg-burg-700 dark:border-burg-700 text-white'
+                                        ? 'border-stone-700 bg-stone-700 dark:bg-stone-600 dark:border-stone-600 text-white'
                                         : 'border-stone-300 dark:border-stone-600 text-stone-600 dark:text-stone-300 hover:border-burg-400 dark:hover:border-burg-500'
                                 }`}
                             >
