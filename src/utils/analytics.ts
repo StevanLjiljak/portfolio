@@ -12,7 +12,7 @@ export const trackPageView = (pageTitle: string): void => {
     });
 };
 
-export const trackCVDownload = () => {
+export const trackCVDownload = (): void => {
     ReactGA.event({
         category: 'Download',
         action: 'CV Download',

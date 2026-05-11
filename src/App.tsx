@@ -1,17 +1,19 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-
-import { initAnalytics, trackPageView } from './utils/analytics';
-initAnalytics();
-trackPageView(window.location.pathname);
+import { LanguageProvider } from './i18n/LanguageContext';
+import { ThemeProvider } from './i18n/ThemeContext';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </Router>
+    <ThemeProvider>
+      <LanguageProvider>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </Router>
+      </LanguageProvider>
+    </ThemeProvider>
   );
 }
 

@@ -1,0 +1,31 @@
+Sve greske su ispravljene. Evo kratkog rezimea svega sto je promenjeno:
+
+Ispravljeno (8 stavki):
+
+#	Fajl	Sta je promenjeno
+1	App.tsx	Uklonjena dupla initAnalytics() / trackPageView() inicijalizacija
+2	analytics.ts	Dodat : void return type na trackCVDownload
+3	index.html	Favicon: public/icons/... → /icons/..., tip svg+xml → png
+4	Header.tsx	h-50 → h-48, /slj2.jpeg sa prefiksom, uklonjen konfliktni onClick sa CV linka
+5	Hero.tsx	Sve 3 kontakt ikone: icons/contact/... → /icons/contact/...
+6	Projects.tsx	Sve project ikone: icons/projects/... → /icons/projects/...
+7	Skills.tsx	Sve skill ikone: icons/skills/... → /icons/skills/...
+8	package.json + firebase.config.ts	Uklonjeno 107 paketa (framer-motion, axios, react-hook-form, react-icons, firebase), obrisan prazan firebase.config.ts
+Jedna stvar koja ostaje na tebi: Zameni placeholder 'G-XXXXXXXXXX' u analytics.ts:4 sa pravim Google Analytics 4 ID-em ako zelis da analytics radi.
+
+c:\Users\DELL\Projects\portfolio\src\utils\analytics.ts
+gde mogu da nadjem ovaj podatak 'G-XXXXXXXXXX'?
+Da bi pronasao svoj Google Analytics 4 Measurement ID, prati ove korake:
+
+Idi na analytics.google.com
+Prijavi se sa Google nalogom
+Ako nemas nalog/property, klikni "Start measuring" i kreiraj ga
+U levom donjem uglu klikni na Admin (ikonica zupcanika)
+U koloni Property klikni na "Data Streams"
+Klikni na svoj web stream (ili kreiraj novi ako ga nemas)
+Tamo ces videti Measurement ID u formatu G-XXXXXXXXXX
+Kopiraj taj ID i zameni placeholder u analytics.ts:4:
+
+
+ReactGA.initialize('G-ABC123DEF4');  // tvoj pravi ID
+Ako jos nemas Google Analytics nalog, registracija je besplatna na analytics.google.com.

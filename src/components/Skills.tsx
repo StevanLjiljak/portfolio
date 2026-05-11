@@ -1,104 +1,98 @@
+import { useLanguage } from '../i18n/useLanguage';
+
+const skills = [
+    {
+        key: 'backend',
+        label: 'Backend',
+        icon: '/icons/skills/backend-icon.png',
+        text: `Program language: Java (17, 21), C#, C/C++
+Frameworks: Spring, Spring Boot, JHipster
+ORM/Database Access: Hibernate, JPA
+Architectures: Micburgrvices, Modular and Monolithic,
+Netflix OSS (Zuul, Ribbon, Eureka, Hystrix), Feign client
+API & Integration: WebServices (REST API), RabbitMQ`,
+    },
+    {
+        key: 'frontend',
+        label: 'Frontend',
+        icon: '/icons/skills/frontend-icon.png',
+        text: `Program language: JavaScript/TypeScript: Angular, React, Next.js
+Web Technologies: HTML, CSS, Tailwind, JSP, JSTL, Servlets
+Build Tools & Package Managers: Yarn, Webpack, npm`,
+    },
+    {
+        key: 'database',
+        label: 'Database',
+        icon: '/icons/skills/database-icon.png',
+        text: `SQL: Oracle PL/SQL, SQL Server, MySQL, PostgreSQL, H2
+NoSQL / Tools: ELK stack (Elasticsearch, Logstash, Kibana), MongoDB, Redis
+Migrations & Versioning: Liquibase`,
+    },
+    {
+        key: 'devops',
+        label: 'DevOps',
+        icon: '/icons/skills/devops-icon.png',
+        text: `Version Control: Git, Subversion, Perforce
+CI/CD: Jenkins, GitHub Actions
+Containerization: Docker
+Build Automation: Gradle, Maven, Ant
+Methodologies: SAFe, Scrum, Kanban
+Protocols: SMPP, HTTP, REST
+Project management: JIRA, Confluence
+Cloud & Hosting: AWS, Swiss Cloud, Railway
+Domain: Namecheap
+Analytics: Google Analytics (GA4)
+Integrations: OpenWeatherMap API, Resend (email)`,
+    },
+    {
+        key: 'testing',
+        label: 'Testing & XML',
+        icon: '/icons/skills/testing-icon.png',
+        text: `Testing: JUnit, Selenium, Mockito, Cucumber, JMeter, Interoperable systems
+XML: Schematron, XML, XSL, XSLT, XPath
+Design & Modeling: UML, Penpot`,
+    },
+    {
+        key: 'ai',
+        label: 'AI Tools',
+        icon: '/icons/skills/artificial-intelligence.png',
+        text: `Assistants: ChatGPT, DeepSeek, Claude Code
+Code review & generation
+Architecture & design consulting
+Nano Bana`,
+    },
+];
+
 export const Skills = () => {
+    const { t } = useLanguage();
+
     return (
-
-        <div className="py-4 relative space-y-3">
-            {/* Skills */}
+        <div className="py-2 relative">
             <div className="container mx-auto px-4">
-                <div className="flex flex-col md:flex-row gap-4 md:gap-8">
-                    <div className="md:w-1/4 text-center md:text-left">
-                        <h2 className="text-base font-sans font-medium text-black">Skills</h2>
+                <div className="flex flex-col md:flex-row gap-2 md:gap-8">
+                    <div className="md:w-1/4">
+                        <h2 className="text-base font-sans font-semibold text-stone-800 dark:text-stone-100">{t.sections.skills}</h2>
                     </div>
-
                     <div className="md:w-3/4">
-                        {/* Grid container with 6 colons */}
-                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
-
-                            {/* Backend */}
-                            <div className="flex flex-col items-center">
-                                {/* Prvi red - ikona + tekst */}
-                                <div className="flex items-center gap-2 mb-4">
-                                    <span className="text-sm">Backend</span>
-                                    <img src="icons/skills/backend-icon.png" alt="Backend" className="w-12 h-12" />
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                            {skills.map((skill) => (
+                                <div
+                                    key={skill.key}
+                                    className="flex flex-col p-3 rounded-lg border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 transition-colors duration-300"
+                                >
+                                    <div className="flex items-center gap-2 mb-2">
+                                        <img src={skill.icon} alt={skill.label} className="w-8 h-8 sm:w-10 sm:h-10" />
+                                        <span className="text-sm font-medium text-stone-800 dark:text-stone-100">{skill.label}</span>
+                                    </div>
+                                    <p className="text-xs text-stone-600 dark:text-stone-300 whitespace-pre-line break-words leading-relaxed">
+                                        {skill.text}
+                                    </p>
                                 </div>
-                                {/* Drugi red - samo tekst */}
-                                <p className="text-xs text-left whitespace-pre-line">
-                                    {`Program language: Java, C#, C/C++, PHP
-                                      Frameworks: Spring, Spring Boot, JHipster
-                                      ORM/Database Access: Hibernate, JPA
-                                      Architectures: Microservices, Modular and Monolithic, 
-                                      Netflix OSS (Zuul, Ribbon, Eureka, Hystrix), Feign client
-                                      API & Integration: WebServices (REST API), RabbitMQ`}
-                                </p>
-                            </div>
-
-                            {/* Frontend */}
-                            <div className="flex flex-col items-center">
-                                <div className="flex items-center gap-2 mb-4">
-                                    <span className="text-sm">Frontend</span>
-                                    <img src="icons/skills/frontend-icon.png" alt="Frontend" className="w-12 h-12" />
-                                </div>
-                                <p className="text-xs text-left whitespace-pre-line">
-                                    {`Program language: JavaScript/Typescript:  Angular, React
-                                      Web Technologies: HTML, CSS, Tailwind, JSP, JSTL, Servlets
-                                      Build Tools & Package Managers: Yarn, Webpack, npm`}
-                                </p>
-                            </div>
-
-                            {/* Database */}
-                            <div className="flex flex-col items-center">
-                                <div className="flex items-center gap-2 mb-4">
-                                    <span className="text-sm">Database</span>
-                                    <img src="icons/skills/database-icon.png" alt="Database" className="w-12 h-12" />
-                                </div>
-                                <p className="text-xs text-left whitespace-pre-line">
-                                    {`SQL: Oracle PL/SQL, SQL Server, MySQL, PostgreSQL, H2
-                                      NoSQL / Tools: ELK stack (Elasticsearch, Logstash, Kibana), MongoDB, Redis
-                                      Migrations & Versioning: Liquibase`}
-                                </p>
-                            </div>
-
-                            {/* DevOps */}
-                            <div className="flex flex-col items-center">
-                                <div className="flex items-center gap-2 mb-4">
-                                    <span className="text-sm">DevOps</span>
-                                    <img src="icons/skills/devops-icon.png" alt="DevOps" className="w-12 h-12" />
-                                </div>
-                                <p className="text-xs text-left whitespace-pre-line">
-                                    {`Version Control: Git, Subversion, Perforce
-                                      CI/CD: Jenkins 
-                                      Build Automation: Gradle, Maven, Ant
-                                      Project management: JIRA/ Confluence
-                                      Cloud: AWS, Swiss Cloud`}
-                                </p>
-                            </div>
-
-                            {/* XML & Data Processing */}
-                            <div className="flex flex-col items-center">
-                                <div className="flex items-center gap-2 mb-4">
-                                    <span className="text-sm">XML & Data Processing</span>
-                                    <img src="icons/skills/xml-data-processing-icon.png" alt="XML & Data Processing" className="w-12 h-12" />
-                                </div>
-                                <p className="text-xs text-left whitespace-pre-line">
-                                    {`XML Technologies: Schematron, XML, XSL, XSLT, XPath
-                                      Design & Modeling: UML, Penpot`}
-                                </p>
-                            </div>
-
-                            {/* Testing */}
-                            <div className="flex flex-col items-center">
-                                <div className="flex items-center gap-2 mb-4">
-                                    <span className="text-sm">Testing</span>
-                                    <img src="icons/skills/testing-icon.png" alt="Testing" className="w-12 h-12" />
-                                </div>
-                                <p className="text-xs text-left whitespace-pre-line">
-                                    {`Testing: JUnit, Selenium, Mockito, Cucumber, JMeter, Interoperable systems`}
-                                </p>
-                            </div>
+                            ))}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     );
 };

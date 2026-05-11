@@ -1,8 +1,30 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-burg-50:  #fdf2f4;
+  --color-burg-100: #fbe6ea;
+  --color-burg-200: #f7cfd6;
+  --color-burg-300: #f0a8b4;
+  --color-burg-400: #e47488;
+  --color-burg-500: #d44d67;
+  --color-burg-600: #b83050;
+  --color-burg-700: #9a2244;
+  --color-burg-800: #7f1d3a;
+  --color-burg-900: #6b1832;
+  --color-burg-950: #3d0a1c;
+}
+
 @layer base {
   html {
     font-family: sans-serif;
-    background: #e8e9ea;
+    background: #faf8f5;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    scroll-behavior: smooth;
+  }
+
+  html.dark {
+    background: #1c1917;
   }
 }
