@@ -8,7 +8,7 @@ const skills = [
         text: `Program language: Java (17, 21), C#, C/C++
 Frameworks: Spring, Spring Boot, JHipster
 ORM/Database Access: Hibernate, JPA
-Architectures: Micburgrvices, Modular and Monolithic,
+Architectures: Microservices, Modular and Monolithic,
 Netflix OSS (Zuul, Ribbon, Eureka, Hystrix), Feign client
 API & Integration: WebServices (REST API), RabbitMQ`,
     },
