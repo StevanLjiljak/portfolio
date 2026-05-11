@@ -4,7 +4,7 @@ import { Experience } from './Experience.tsx';
 import { useLanguage } from '../i18n/useLanguage';
 
 const SectionTitle = ({ children }: { children: React.ReactNode }) => (
-  <h2 className="text-base font-sans font-semibold text-stone-800 dark:text-stone-100">
+  <h2 className="text-base font-sans font-semibold text-burg-600 dark:text-burg-400">
     {children}
   </h2>
 );
@@ -58,20 +58,20 @@ export const Hero = () => {
         <div className="md:w-1/4"><SectionTitle>{t.sections.contacts}</SectionTitle></div>
         <div className="md:w-3/4 flex flex-col gap-3">
           <div className="flex items-center gap-3">
-            <img className="w-8 h-8 flex-shrink-0 object-cover border-2 border-stone-300 dark:border-stone-600 rounded-full" src="/icons/contact/mail-icon.png" alt="Email icon" />
-            <a href="mailto:dsmljiljak@yahoo.com" className="text-sm text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-100 break-all transition-colors">
+            <img className="w-8 h-8 flex-shrink-0 object-cover border-2 border-burg-200 dark:border-burg-800 rounded-full dark:brightness-0 dark:invert" src="/icons/contact/mail-icon.png" alt="Email icon" />
+            <a href="mailto:dsmljiljak@yahoo.com" className="text-sm text-stone-700 dark:text-stone-300 hover:text-burg-600 dark:hover:text-burg-400 break-all transition-colors">
               dsmljiljak@yahoo.com
             </a>
           </div>
           <div className="flex items-center gap-3">
-            <img className="w-8 h-8 flex-shrink-0 object-cover border-2 border-stone-300 dark:border-stone-600 rounded-full" src="/icons/contact/linkedin.png" alt="LinkedIn icon" />
-            <a href="https://www.linkedin.com/in/stevan-ljiljak-a4888544/" className="text-sm text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-100 break-all transition-colors">
+            <img className="w-8 h-8 flex-shrink-0 object-cover border-2 border-burg-200 dark:border-burg-800 rounded-full dark:brightness-0 dark:invert" src="/icons/contact/linkedin.png" alt="LinkedIn icon" />
+            <a href="https://www.linkedin.com/in/stevan-ljiljak-a4888544/" className="text-sm text-stone-700 dark:text-stone-300 hover:text-burg-600 dark:hover:text-burg-400 break-all transition-colors">
               linkedin.com/in/stevan-ljiljak-a4888544
             </a>
           </div>
           <div className="flex items-center gap-3">
-            <img className="w-8 h-8 flex-shrink-0 object-cover border-2 border-stone-300 dark:border-stone-600 rounded-full" src="/icons/contact/github-cat-icon.png" alt="GitHub icon" />
-            <a href="https://github.com/StevanLjiljak" className="text-sm text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-100 break-all transition-colors">
+            <img className="w-8 h-8 flex-shrink-0 object-cover border-2 border-burg-200 dark:border-burg-800 rounded-full dark:brightness-0 dark:invert" src="/icons/contact/github-cat-icon.png" alt="GitHub icon" />
+            <a href="https://github.com/StevanLjiljak" className="text-sm text-stone-700 dark:text-stone-300 hover:text-burg-600 dark:hover:text-burg-400 break-all transition-colors">
               github.com/StevanLjiljak
             </a>
           </div>

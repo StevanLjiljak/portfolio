@@ -71,18 +71,18 @@ export const Skills = () => {
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row gap-2 md:gap-8">
                     <div className="md:w-1/4">
-                        <h2 className="text-base font-sans font-semibold text-stone-800 dark:text-stone-100">{t.sections.skills}</h2>
+                        <h2 className="text-base font-sans font-semibold text-burg-600 dark:text-burg-400">{t.sections.skills}</h2>
                     </div>
                     <div className="md:w-3/4">
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                             {skills.map((skill) => (
                                 <div
                                     key={skill.key}
-                                    className="flex flex-col p-3 rounded-lg border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 transition-colors duration-300"
+                                    className="flex flex-col p-3 rounded-lg border border-burg-100 dark:border-stone-700 bg-white dark:bg-stone-800 transition-colors duration-300"
                                 >
                                     <div className="flex items-center gap-2 mb-2">
-                                        <img src={skill.icon} alt={skill.label} className="w-8 h-8 sm:w-10 sm:h-10" />
-                                        <span className="text-sm font-medium text-stone-800 dark:text-stone-100">{skill.label}</span>
+                                        <img src={skill.icon} alt={skill.label} className="w-8 h-8 sm:w-10 sm:h-10 dark:brightness-0 dark:invert" />
+                                        <span className="text-sm font-medium text-burg-600 dark:text-burg-400">{skill.label}</span>
                                     </div>
                                     <p className="text-xs text-stone-600 dark:text-stone-300 whitespace-pre-line break-words leading-relaxed">
                                         {skill.text}
