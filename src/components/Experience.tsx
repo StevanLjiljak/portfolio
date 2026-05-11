@@ -54,11 +54,13 @@ export const Experience = () => {
                                                 ))}
                                             </div>
                                         ) : (
-                                            <ul className="list-disc list-inside space-y-1 mt-2">
-                                                {exp.highlights.map((h, i) => (
-                                                    <li key={i} className="text-xs text-stone-600 break-words">{h}</li>
-                                                ))}
-                                            </ul>
+                                            <div className="rounded-md border border-stone-200 dark:border-stone-600 bg-stone-50 p-3 mt-2">
+                                                <ul className="list-disc list-inside space-y-1">
+                                                    {exp.highlights.map((h, i) => (
+                                                        <li key={i} className="text-xs text-stone-600 break-words">{h}</li>
+                                                    ))}
+                                                </ul>
+                                            </div>
                                         )}
                                     </div>
                                 </div>
