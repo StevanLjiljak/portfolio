@@ -53,14 +53,13 @@ export const translations: Record<Language, Translations> = {
             hobby: 'Hobby',
             contacts: 'Contacts',
         },
-        objective: `I'm a principal software engineer with over ${new Date().getFullYear() - 2012} years of experience building scalable, secure, and high-performance enterprise systems within the Java ecosystem.
-                Throughout my career, I've focused not only on delivering robust technical solutions but on transforming how teams approach software: with clarity, discipline, and pride in craftsmanship.
-                My strength lies in modernizing complex legacy systems, architecting future-proof platforms, and elevating code quality through principled engineering.
-                I'm deeply invested in team growth, whether through mentoring, setting technical direction, or creating engineering cultures that value quality as much as speed.
-                I thrive where others hesitate in environments where systems are complex, goals are ambitious, and transformation is overdue.
-                I believe technical leadership is about more than just writing great code. It's about creating an ecosystem where excellence becomes the default.
-                I leverage AI-assisted development tools to accelerate delivery and enhance code quality.
-                If you're looking for someone who combines deep technical expertise with strategic thinking, ownership, and a strong sense of engineering culture - let's talk.`,
+        objective: `I'm a principal software engineer with over ${new Date().getFullYear() - 2012} years of experience building scalable, secure, and high-performance enterprise systems within the Java ecosystem. Throughout my career, I've focused not only on delivering robust technical solutions but on transforming how teams approach software: with clarity, discipline, and pride in craftsmanship.
+
+My strength lies in modernizing complex legacy systems, architecting future-proof platforms, and elevating code quality through principled engineering. I'm deeply invested in team growth, through mentoring, setting technical direction, and creating engineering cultures that value quality as much as speed.
+
+I thrive where others hesitate, in environments where systems are complex, goals are ambitious, and transformation is overdue. I believe technical leadership is about more than just writing great code; it's about creating an ecosystem where excellence becomes the default.
+
+I leverage AI-assisted development tools to accelerate delivery and enhance code quality. If you're looking for someone who combines deep technical expertise with strategic thinking, ownership, and a strong sense of engineering culture, let's talk.`,
         education: `University of Belgrade
                 School of Electrical Engineering
                 Computer technology and informatics.`,
@@ -75,7 +74,7 @@ export const translations: Record<Language, Translations> = {
             copyright: `© Stevan Ljiljak 2025–${new Date().getFullYear()}`,
         },
         droneEye: {
-            description: 'Drone pilot platform — independent project built from scratch with full ownership of architecture, development, and infrastructure.',
+            description: 'Drone pilot platform, independent project built from scratch with full ownership of architecture, development, and infrastructure.',
             link: 'droneeye.ai →',
         },
         experience: [
@@ -231,14 +230,13 @@ export const translations: Record<Language, Translations> = {
             hobby: 'Хоби',
             contacts: 'Контакти',
         },
-        objective: `Принципал сам софтверски инжењер са више од ${new Date().getFullYear() - 2012} година искуства у изградњи скалабилних, безбедних и високоучинковитих enterprise система унутар Java екосистема.
-                Током каријере, фокусирао сам се не само на испоруку робусних техничких решења, већ и на трансформацију приступа тимова развоју softvera: са јасноћом, дисциплином и поносом у занатском раду.
-                Моја снага лежи у модернизацији сложених legacy система, пројектовању платформи отпорних на будућност и подизању квалитета кода кроз принципијелно инжењерство.
-                Дубоко сам посвећен расту тима, било кроз менторство, постављање техничког правца или стварање инжењерских култура које вреднују квалитетједнако као и брзину.
-                Напредујем тамо где други оклевају — у окружењима где су системи сложени, циљеви амбициозни и трансформација закаснела.
-                Верујем да техничко лидерство значи више од писања одличног кода. Реч је о стварању екосистема у којем извrsност постаје подразумевано.
-                Користим AI алате за развој kako бих убрзао испоруку и побољшао квалитет кода.
-                Ако тражите некога ко комбинује дубоку техничку експертизу са стратешким размишљањем, власништвом и снажним осећајем инжењерске културе — хајде да разговарамо.`,
+        objective: `Принципал сам софтверски инжењер са више од ${new Date().getFullYear() - 2012} година искуства у изградњи скалабилних, безбедних и високоучинковитих enterprise система унутар Java екосистема. Током каријере, фокусирао сам се не само на испоруку робусних техничких решења, већ и на трансформацију приступа тимова развоју softvera: са јасноћом, дисциплином и поносом у занатском раду.
+
+Моја снага лежи у модернизацији сложених legacy система, пројектовању платформи отпорних на будућност и подизању квалитета кода кроз принципијелно инжењерство. Дубоко сам посвећен расту тима, кроз менторство, постављање техничког правца и стварање инжењерских култура које вреднују квалитетједнако као и брзину.
+
+Напредујем тамо где други оклевају, у окружењима где су системи сложени, циљеви амбициозни и трансформација закаснела. Верујем да техничко лидерство значи више од писања одличног кода; реч је о стварању екосистема у којем изврсност постаје подразумевано.
+
+Користим AI алате за развој kako бих убрзао испоруку и побољшао квалитет кода. Ако тражите некога ко комбинује дубоку техничку експертизу са стратешким размишљањем, власништвом и снажним осећајем инжењерске културе, хајде да разговарамо.`,
         education: `Универзитет у Београду
                 Електротехнички факултет
                 Рачунарска техника и информатика.`,
@@ -253,7 +251,7 @@ export const translations: Record<Language, Translations> = {
             copyright: `© Stevan Ljiljak 2025–${new Date().getFullYear()}`,
         },
         droneEye: {
-            description: 'Платформа за drone пилоте — независни пројекат изграђен од нуле са пуним власништвом архитектуре, развоја и инфраструктуре.',
+            description: 'Платформа за drone пилоте, независни пројекат изграђен од нуле са пуним власништвом архитектуре, развоја и инфраструктуре.',
             link: 'droneeye.ai →',
         },
         experience: [
@@ -409,14 +407,13 @@ export const translations: Record<Language, Translations> = {
             hobby: 'Хобби',
             contacts: 'Контакты',
         },
-        objective: `Я главный программный инженер с более чем ${new Date().getFullYear() - 2012} годами опыта в создании масштабируемых, безопасных и высокопроизводительных корпоративных систем в экосистеме Java.
-                На протяжении карьеры я фокусировался не только на создании надёжных технических решений, но и на трансформации подхода команд к разработке: с ясностью, дисциплиной и гордостью за мастерство.
-                Моя сила — в модернизации сложных устаревших систем, проектировании перспективных платформ и повышении качества кода через принципиальную инженерию.
-                Я глубоко вовлечён в развитие команды — через наставничество, определение технического направления и создание инженерной культуры, где качество ценится наравне со скоростью.
-                Я процветаю там, где другие колеблются — в среде со сложными системами, амбициозными целями и назревшей трансформацией.
-                Я убеждён, что техническое лидерство — это не только написание отличного кода, но и создание экосистемы, в которой совершенство становится нормой.
-                Я использую AI-инструменты для ускорения разработки и повышения качества кода.
-                Если вы ищете специалиста, сочетающего глубокую техническую экспертизу со стратегическим мышлением и сильным чувством инженерной культуры — давайте поговорим.`,
+        objective: `Я главный программный инженер с более чем ${new Date().getFullYear() - 2012} годами опыта в создании масштабируемых, безопасных и высокопроизводительных корпоративных систем в экосистеме Java. На протяжении карьеры я фокусировался не только на создании надёжных технических решений, но и на трансформации подхода команд к разработке: с ясностью, дисциплиной и гордостью за мастерство.
+
+Моя сила в модернизации сложных устаревших систем, проектировании перспективных платформ и повышении качества кода через принципиальную инженерию. Я глубоко вовлечён в развитие команды, через наставничество, определение технического направления и создание инженерной культуры, где качество ценится наравне со скоростью.
+
+Я процветаю там, где другие колеблются, в среде со сложными системами, амбициозными целями и назревшей трансформацией. Я убеждён, что техническое лидерство это не только написание отличного кода, но и создание экосистемы, в которой совершенство становится нормой.
+
+Я использую AI-инструменты для ускорения разработки и повышения качества кода. Если вы ищете специалиста, сочетающего глубокую техническую экспертизу со стратегическим мышлением и сильным чувством инженерной культуры, давайте поговорим.`,
         education: `Белградский университет
                 Электротехнический факультет
                 Компьютерная техника и информатика.`,
@@ -426,12 +423,12 @@ export const translations: Record<Language, Translations> = {
         hobby: 'Горные лыжи, баскетбол, чтение, велоспорт, сальса, плавание, бег, музыка, история, путешествия...',
         footer: {
             quote: `Когда встаёшь застели кровать и всё остальное само устроится.
-                              Убирай за собой — это отражается в твоём коде и образе жизни.
-                              SOLID — это принцип, который нужно уважать и соблюдать.`,
+                              Убирай за собой, это отражается в твоём коде и образе жизни.
+                              SOLID это принцип, который нужно уважать и соблюдать.`,
             copyright: `© Stevan Ljiljak 2025–${new Date().getFullYear()}`,
         },
         droneEye: {
-            description: 'Платформа для пилотов дронов — независимый проект, созданный с нуля с полным владением архитектурой, разработкой и инфраструктурой.',
+            description: 'Платформа для пилотов дронов, независимый проект, созданный с нуля с полным владением архитектурой, разработкой и инфраструктурой.',
             link: 'droneeye.ai →',
         },
         experience: [
