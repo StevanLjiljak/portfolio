@@ -7,13 +7,19 @@ import { SkeletonLoader } from '../components/SkeletonLoader';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
+  const [showSkeleton, setShowSkeleton] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 600);
-    return () => clearTimeout(timer);
+    const skeletonTimer = setTimeout(() => setShowSkeleton(true), 200);
+    const loadTimer = setTimeout(() => setLoading(false), 800);
+    return () => {
+      clearTimeout(skeletonTimer);
+      clearTimeout(loadTimer);
+    };
   }, []);
 
-  if (loading) return <SkeletonLoader />;
+  if (loading && showSkeleton) return <SkeletonLoader />;
+  if (loading) return <div className="min-h-screen bg-stone-50 dark:bg-stone-900" />;
 
   return (
     <div className="min-h-screen bg-stone-50 dark:bg-stone-900 transition-colors duration-300">

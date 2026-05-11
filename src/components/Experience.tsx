@@ -36,7 +36,7 @@ export const Experience = () => {
                                         </div>
                                         <div className="flex items-center justify-between sm:justify-end gap-3 mt-1 sm:mt-0 flex-shrink-0">
                                             <span className="text-xs text-stone-400 dark:text-stone-500 whitespace-nowrap">{exp.period}</span>
-                                            <span className="text-stone-400 dark:text-stone-500 text-xs accordion-arrow">{isOpen ? '▲' : '▼'}</span>
+                                            <span className={`inline-block w-2 h-2 border-r-2 border-b-2 border-stone-400 dark:border-stone-500 transition-transform duration-200 accordion-arrow ${isOpen ? '-rotate-135' : 'rotate-45'} mb-0.5`} />
                                         </div>
                                     </button>
                                     <div className={`px-3 sm:px-4 pb-3 border-t border-burg-100 dark:border-stone-700 ${isOpen ? '' : 'hidden print:block'}`}>
