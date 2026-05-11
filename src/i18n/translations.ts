@@ -53,7 +53,7 @@ export const translations: Record<Language, Translations> = {
             hobby: 'Hobby',
             contacts: 'Contacts',
         },
-        objective: `I'm a senior software engineer with over ${new Date().getFullYear() - 2012} years of experience building scalable, secure, and high-performance enterprise systems within the Java ecosystem.
+        objective: `I'm a principal software engineer with over ${new Date().getFullYear() - 2012} years of experience building scalable, secure, and high-performance enterprise systems within the Java ecosystem.
                 Throughout my career, I've focused not only on delivering robust technical solutions but on transforming how teams approach software: with clarity, discipline, and pride in craftsmanship.
                 My strength lies in modernizing complex legacy systems, architecting future-proof platforms, and elevating code quality through principled engineering.
                 I'm deeply invested in team growth, whether through mentoring, setting technical direction, or creating engineering cultures that value quality as much as speed.
@@ -231,7 +231,7 @@ export const translations: Record<Language, Translations> = {
             hobby: 'Хоби',
             contacts: 'Контакти',
         },
-        objective: `Сениор сам софтверски инжењер са више од ${new Date().getFullYear() - 2012} година искуства у изградњи скалабилних, безбедних и високоучинковитих enterprise система унутар Java екосистема.
+        objective: `Принципал сам софтверски инжењер са више од ${new Date().getFullYear() - 2012} година искуства у изградњи скалабилних, безбедних и високоучинковитих enterprise система унутар Java екосистема.
                 Током каријере, фокусирао сам се не само на испоруку робусних техничких решења, већ и на трансформацију приступа тимова развоју softvera: са јасноћом, дисциплином и поносом у занатском раду.
                 Моја снага лежи у модернизацији сложених legacy система, пројектовању платформи отпорних на будућност и подизању квалитета кода кроз принципијелно инжењерство.
                 Дубоко сам посвећен расту тима, било кроз менторство, постављање техничког правца или стварање инжењерских култура које вреднују квалитетједнако као и брзину.
@@ -409,7 +409,7 @@ export const translations: Record<Language, Translations> = {
             hobby: 'Хобби',
             contacts: 'Контакты',
         },
-        objective: `Я старший программный инженер с более чем ${new Date().getFullYear() - 2012} годами опыта в создании масштабируемых, безопасных и высокопроизводительных корпоративных систем в экосистеме Java.
+        objective: `Я главный программный инженер с более чем ${new Date().getFullYear() - 2012} годами опыта в создании масштабируемых, безопасных и высокопроизводительных корпоративных систем в экосистеме Java.
                 На протяжении карьеры я фокусировался не только на создании надёжных технических решений, но и на трансформации подхода команд к разработке: с ясностью, дисциплиной и гордостью за мастерство.
                 Моя сила — в модернизации сложных устаревших систем, проектировании перспективных платформ и повышении качества кода через принципиальную инженерию.
                 Я глубоко вовлечён в развитие команды — через наставничество, определение технического направления и создание инженерной культуры, где качество ценится наравне со скоростью.
