@@ -566,6 +566,4 @@ export const translations: Record<Language, Translations> = {
             },
         ],
     },
-} as const;
-
-export type Translations = typeof translations.en;
+};
