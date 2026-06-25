@@ -30,7 +30,7 @@ export const Projects = () => {
                                     <span className="text-sm font-medium text-burg-600 dark:text-burg-400">DroneEye</span>
                                     <span className="text-xs text-burg-500 dark:text-burg-400 ml-2">– Full Stack Developer</span>
                                 </div>
-                                <span className="text-xs text-stone-400 dark:text-stone-500 whitespace-nowrap">Aug 2024 – Present</span>
+                                <span className="text-xs text-stone-400 dark:text-stone-500 whitespace-nowrap">Aug 2025 – Present</span>
                             </div>
                             <p className="text-xs text-stone-600 dark:text-stone-300 mb-3">{t.droneEye.description}</p>
                             <div className="flex flex-wrap gap-1.5 mb-3">

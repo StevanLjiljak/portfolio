@@ -81,7 +81,7 @@ I leverage AI-assisted development tools to accelerate delivery and enhance code
             {
                 company: 'DroneEye',
                 role: 'Full Stack Developer',
-                period: 'Aug 2024 – Present',
+                period: 'Aug 2025 – Present',
                 domain: 'Independent project – drone pilot platform',
                 highlights: [
                     'Designed and built full-stack web app with Java 21, Spring Boot, PostgreSQL',
@@ -258,7 +258,7 @@ I leverage AI-assisted development tools to accelerate delivery and enhance code
             {
                 company: 'DroneEye',
                 role: 'Full Stack Developer',
-                period: 'Авг 2024 – Данас',
+                period: 'Авг 2025 – Данас',
                 domain: 'Независни пројекат – платформа за drone пилоте',
                 highlights: [
                     'Дизајнирао и изградио full-stack веб апликацију са Java 21, Spring Boot, PostgreSQL',
@@ -435,7 +435,7 @@ I leverage AI-assisted development tools to accelerate delivery and enhance code
             {
                 company: 'DroneEye',
                 role: 'Full Stack Developer',
-                period: 'Авг 2024 – Настоящее время',
+                period: 'Авг 2025 – Настоящее время',
                 domain: 'Независимый проект – платформа для пилотов дронов',
                 highlights: [
                     'Спроектировал и создал full-stack веб-приложение на Java 21, Spring Boot, PostgreSQL',
